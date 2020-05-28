@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+        android:layout_width="409dp"
+        android:layout_height="728dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_register">
+        <LinearLayout
+            android:layout_height="130dp"
+            android:layout_width="match_parent">
+
+            <RelativeLayout
+                android:layout_width="135dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical"
+                android:background="@drawable/ic_group_25">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Ready for"
+                    android:textColor="#fff"
+                    android:textSize="16dp"
+                    android:textFontWeight="700"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Great Deals!!!"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="25dp"
+                    android:textSize="25dp"
+                    android:textFontWeight="700"
+                    android:textColor="#F37351"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="28dp"
+            android:src="@drawable/ic_shopping_zone"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="490dp"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_width="38dp"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="1.8dp"
+                    android:background="@android:color/background_light" />
+
+                <EditText
+                    android:id="@+id/mobNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="27dp"
+                    android:background="@drawable/bord_register_inp"
+                    android:drawableLeft="@drawable/ic_call"
+                    android:drawablePadding="14dp"
+                    android:ems="25"
+                    android:hint="Mobile Number"
+                    android:paddingTop="22dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="22dp"
+                    android:textColor="#FFF"
+                    android:textColorHint="#FFF"
+                    android:textSize="13dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@android:color/transparent"
+                    android:text="Generate OTP"
+                    android:textColor="#CCCC00"
+                    android:textSize="10dp" />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/otp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="66.5dp"
+                android:background="@drawable/bord_register_inp_1"
+                android:drawableLeft="@drawable/ic_mobile"
+                android:drawablePadding="14dp"
+                android:ems="25"
+                android:hint="One Time Password"
+                android:inputType="number"
+                android:paddingLeft="24dp"
+                android:paddingTop="22dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="22dp"
+                android:textColor="#FFF"
+                android:textColorHint="#FFFFFF"
+                android:textSize="13dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="133.5dp"
+                android:background="@drawable/bord_register_inp_2"
+                android:ems="25"
+                android:paddingTop="23dp"
+                android:paddingBottom="23dp"
+                android:text="submit"
+                android:textColor="#FFF"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="160dp"
+                android:src="@drawable/ic_shopping_zone" />
+
+            <View
+                android:layout_width="35dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="192.5dp"
+                android:background="@android:color/background_light" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="205dp"
+                android:buttonTint="#FFF"
+                android:ems="8"
+                android:scaleX="1.2"
+                android:scaleY="1.2"
+                android:text="Remember"
+                android:textColor="#FFF"
+                android:textSize="12dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="400dp"
+                android:background="@drawable/reg_inp_1"
+                android:ems="9"
+                android:text="Register"
+                android:textColor="#FFF" />
+        </RelativeLayout>
+    </LinearLayout>
