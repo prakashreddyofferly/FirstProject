@@ -5,4 +5,8 @@
     <color name="colorAccent">#03DAC5</color>
     <color name="dark_orange">#F37351</color>
     <color name="dark_blue">#04699E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="light_blue">#389CE4</color>
+    <color name="light_green">#59A51F</color>
 </resources>

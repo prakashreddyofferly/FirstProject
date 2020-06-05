@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">FirstProject</string>
     <string name="XYZ_Store">XYZ Store</string>
+    <string name="eat_safe">Eat Safe</string>
+    <string name="order">Order Now</string>
+    <string name="est_time">Estimate Pickup Time - 30 Mins</string>
+    <string name="act_time">Kindly contact Restaurant for actual time</string>
+    <string name="inc_dec">0</string>
 </resources>
