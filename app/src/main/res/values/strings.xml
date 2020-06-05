@@ -6,4 +6,8 @@
     <string name="est_time">Estimate Pickup Time - 30 Mins</string>
     <string name="act_time">Kindly contact Restaurant for actual time</string>
     <string name="inc_dec">0</string>
+    <string name="str_name">Sivasi Kiranam Store</string>
+    <string name="cell_txt">Toor dal</string>
+    <string name="met_typ">5 kg</string>
+    <string name="qty">5</string>
 </resources>
